@@ -2,8 +2,8 @@ function validar() {
 
     let name = document.getElementById("txt_nome").value;
     let age = document.getElementById("txt_idade").value;
-    validarIdade(age); //comentario teste
     validarNome(name); //some daqui mel
+    validarIdade(age); //comentario teste
     console.log(name);
     console.log(age);
 };
