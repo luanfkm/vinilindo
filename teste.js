@@ -2,15 +2,15 @@ function validar() {
 
     let name = document.getElementById("txt_nome").value;
     let age = document.getElementById("txt_idade").value;
-    validarNome(name); //some daqui mel
-    validarIdade(age); //comentario teste
+    validarNome(name); 
+    validarIdade(age); 
 };
 
 function validarNome(nome) {
     if(nome == null || nome == undefined || nome == '' ) {
         console.log("fiadaputa, escreve qualquer nome");
     } else {
-        console.log("blz, escreveu o nome: " + nome)
+        console.log("blz, vosso nome é: " + nome)
     }
 }
 
@@ -20,5 +20,5 @@ function validarIdade(idade) {
     else if(idade > 17)
         console.log(idade + " anos já pode ser preso");
     else
-        console.log(idade + "É de menó, é estudante");
+        console.log(idade + " anos é de menó não pode entrar no site não");
 };
