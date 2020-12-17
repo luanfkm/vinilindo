@@ -1,0 +1,16 @@
+.button {
+    background-color: rgb(66, 112, 14);
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 6px;
+    width: 80px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+.button a {
+    color: white;
+    text-decoration: unset;
+}
+
