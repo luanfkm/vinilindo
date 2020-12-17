@@ -10,6 +10,8 @@ function validar() {
 function validarNome(nome) {
     if(nome == null || nome == undefined || nome == '' ) {
         console.log("fiadaputa, escreve qualquer nome");
+    } else {
+        console.log("blz, escreveu o nome: " + nome)
     }
 }
 
