@@ -2,7 +2,7 @@
 function validar() {
     let nome = document.getElementById("txt_nome").value;
     let idade = document.getElementById("txt_idade").value;
-    validarIdade(idade);
+    validarNome(nome);
     console.log(nome);
     console.log(idade);
 }
