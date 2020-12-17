@@ -2,7 +2,7 @@
 function validar() {
     let nome = document.getElementById("txt_nome").value;
     let idade = document.getElementById("txt_idade").value;
-    validarIdade(idade);
+    validarIdade(idade); //comentario teste
     console.log(nome);
     console.log(idade);
 }
@@ -23,4 +23,4 @@ function validarIdade(idade) {
         console.log("É de Maió");
     else
         console.log("É de menó");
-}; 
+};
