@@ -1,13 +1,12 @@
-
 function validar() {
-    let nome = document.getElementById("txt_nome").value;
-    let idade = document.getElementById("txt_idade").value;
-    validarIdade(idade); //comentario teste
-    validarNome(nome); //some daqui mel
-    console.log(nome);
-    console.log(idade);
-}
 
+    let name = document.getElementById("txt_nome").value;
+    let age = document.getElementById("txt_idade").value;
+    validarIdade(age); //comentario teste
+    validarNome(name); //some daqui mel
+    console.log(name);
+    console.log(age);
+};
 
 function validarNome(nome) {
     if(nome == null || nome == undefined || nome == '' ) {
