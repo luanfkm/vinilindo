@@ -4,8 +4,6 @@ function validar() {
     let age = document.getElementById("txt_idade").value;
     validarNome(name); //some daqui mel
     validarIdade(age); //comentario teste
-    console.log(name);
-    console.log(age);
 };
 
 function validarNome(nome) {
@@ -20,7 +18,7 @@ function validarIdade(idade) {
     if (idade == null || idade == undefined || idade == '')
         console.log("Digita a idade casseta");
     else if(idade > 17)
-        console.log("É de Maió");
+        console.log(idade + " anos já pode ser preso");
     else
-        console.log("É de menó");
+        console.log(idade + "É de menó, é estudante");
 };
