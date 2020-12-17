@@ -16,5 +16,10 @@ function validarNome(nome) {
 }
 
 function validarIdade(idade) {
-    
-}
+    if (idade == null || idade == undefined || idade == '')
+        console.log("Digita a idade casseta");
+    else if(idade > 17)
+        console.log("É de Maió");
+    else
+        console.log("É de menó");
+    }
