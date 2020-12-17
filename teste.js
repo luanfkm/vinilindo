@@ -20,4 +20,4 @@ function validarIdade(idade) {
         console.log("É de Maió");
     else
         console.log("É de menó");
-    }
+};
