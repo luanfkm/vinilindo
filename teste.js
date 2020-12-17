@@ -8,6 +8,9 @@ function validar() {
 
 
 function validarNome(nome) {
+    if(nome == null || nome == undefined || nome == '' ) {
+        console.log("fiadaputa, escreve o nome");
+    }
 }
 
 function validarIdade(idade) {
